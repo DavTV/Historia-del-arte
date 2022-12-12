@@ -81,12 +81,15 @@ header {
 .list {
   list-style: none;
   padding: 0;
+  direction: flex;
+  /* flex-wrap: wrap; */
 }
 
 .list li {
   padding: 2rem;
   cursor: pointer;
   text-align: center;
+  /* min-width: 100px; */
 }
 
 a,
@@ -108,7 +111,7 @@ a:hover {
   margin: 5px;
 }
 
-@media (min-width:800px) {
+@media (min-width:900px) {
   .navbar nav {
     position: initial;
     height: 100%;
